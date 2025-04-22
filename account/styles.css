@@ -1,0 +1,21 @@
+main.account .update-account .account-form .account-options {
+	display: flex;
+	flex-direction: column;
+	gap: calc(var(--element-width) * 0.025);
+	
+	position: fixed;
+
+	--position-value: calc(var(--element-width) * 0.2);
+	right: var(--position-value);
+	bottom: var(--position-value);
+}
+
+/* styles for delete account subpage */
+main.account .delete-account {
+	display: flex;
+	flex-direction: column;
+	gap: calc(var(--element-width) * 0.05);
+}
+main.account .delete-account button {
+	width: var(--element-width);
+}
